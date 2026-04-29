@@ -270,14 +270,11 @@
         extra_1 { status = "reserved"; };
         extra_2 { status = "reserved"; };
         extra_3 { status = "reserved"; };
-    };
+    }; // конец keymap
 
-    // ─────────────────────────────────────────────────────────────────
-    // Conditional layer: Lower + Raise = Adjust
-    // ─────────────────────────────────────────────────────────────────
     conditional_layers {
         compatible = "zmk,conditional-layers";
-        adjust_layer_logic {
+        tri_layer {
             if-layers = <1 2>;
             then-layer = <3>;
         };
