@@ -92,10 +92,7 @@
             then-layer = <3>;
         };
     };
-};        };
-    };
-
-    /* Дальше идет твой блок keymap { ... }; */
+};
 
     keymap {
         compatible = "zmk,keymap";
