@@ -277,7 +277,7 @@
     // ─────────────────────────────────────────────────────────────────
     conditional_layers {
         compatible = "zmk,conditional-layers";
-        adjust {
+        adjust_layer_logic {
             if-layers = <1 2>;
             then-layer = <3>;
         };
